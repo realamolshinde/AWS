@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>increment</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<script src="increment.js"></script>
+<style>
+    body
+    {
+        background-color: darkgoldenrod;
+        height: 100vh;
+    }
+    .amol
+    {
+     border: 1vh solid;
+     border-color: coral;
+     padding:3vh;
+     background-color:yellow;
+     margin-right:2vh;
+     margin-left: 2vh;
+    }
+    .one
+    {
+        font-size: 21vh;
+        height:45vh;
+        justify-content:center;
+        align-items: flex-end;
+      
+    }
+    
+</style>
+<body>
+    <div class="one" id="id1" style="display: flex;">1</div>
+    <div style="display:flex;align-items: center;justify-content: center;">
+        <div>
+            <button class="amol" onclick="increment()">increse</button>
+        </div>
+        <div>
+            <button class="amol"  onclick="decrement()">decrese</button>
+        </div>
+    </div>
+</body>
+</html>
